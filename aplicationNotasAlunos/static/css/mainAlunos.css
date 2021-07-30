@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+main{
+
+}
+main .container{
+
+  width: 50%;
+  height: 500px;
+  margin: 10% 25%;
+  padding: 20px;
+  box-shadow: -2px 3px 10px  rgba(0,0,0,0.2);
+  border-radius: 8px;
+  background: white;
+  text-align:  center;
+}
+
+
+
+.container h2{
+  margin-bottom: 30px;
+}
+main .container .tabela {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+
+}
+
+
+
+

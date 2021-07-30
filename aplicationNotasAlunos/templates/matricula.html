@@ -1,0 +1,37 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Notas</title>
+    <link rel="stylesheet" href="{% static 'css/mainAlunos.css' %}">
+</head>
+<body>
+  <main >
+          <div class="container">
+              <h2>Aluno(a)</h2>
+
+              <table class="tabela">
+
+                  <thead >
+                    <tr>
+                        <th>Nome</th>
+                        <th>PeríodoIngresso</th>
+                        <th>Nota</th>
+                        <th>Situação</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+                        <td><a href="{% url 'index' %}">{{ aluno.nome }}</a></td>
+                        <td>{{ aluno.periodoIngresso }}</td>
+                        <td>{{ aluno.nota }}</td>
+                        <td>{{ aluno.situacao }}</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div><!--Main-Container-->
+      </main><!--Main-->
+</body>
+</html>
